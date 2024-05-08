@@ -1,0 +1,25 @@
+{
+  "name": "SCID Specification",
+  "version": "1.0.0",
+  "description": "A specification for generating a self-certifying identifier (SCID) from initial JSON data of the identified object.",
+  "main": "index.js",
+  "scripts": {
+    "edit": "node -e \"require('spec-up')()\"",
+    "render": "node -e \"require('spec-up')({ nowatch: true })\"",
+    "dev": "node -e \"require('spec-up')({ dev: true })\""
+  },
+  "keywords": [
+    "self-certifying identifier",
+    "DID",
+    "spec"
+  ],
+  "author": "Stephen Curran",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/bcgov/scid-spec/issues"
+  },
+  "homepage": "https://github.com/bcgov/scid-spec#readme",
+  "dependencies": {
+    "spec-up": "github:brianorwhatever/spec-up#master"
+  }
+}
