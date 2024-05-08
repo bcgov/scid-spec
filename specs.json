@@ -1,0 +1,28 @@
+{
+  "specs": [
+    {
+      "title": "Self-Certifying Identifier (SCID) Specification",
+      "spec_directory": "./spec",
+      "markdown_paths": [
+        "header.md",
+        "abstract.md",
+        "definitions.md",
+        "overview.md",
+        "specification.md",
+        "security_and_privacy.md",
+        "implementors_guide.md",
+        "example.md",
+        "references.md"
+      ],
+      "source": {
+        "host": "github",
+        "account": "bcgov",
+        "repo": "scid-spec"
+      },
+      "output_path": "./",
+      "logo": "tdw.jpg",
+      "logo_link": "https://github.com/bcgov/scid-spec",
+      "katex": true
+    }
+  ]
+}
